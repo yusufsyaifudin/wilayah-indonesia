@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "yusufs/wilayah-indonesia",
+    "description": "Indonesia administrative map",
+    "keywords": ["indonesia", "administrative", "geojson", "indonesia geojson", "indonesia cities"],
     "license": "MIT",
     "type": "project",
     "require": {
