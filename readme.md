@@ -1,6 +1,7 @@
 # Wilayah Indonesia
 
-
+## Import
+To import data to database, please read this -> [/wilayah-indonesia-api/readme.md](/wilayah-indonesia-api/readme.md)
 
 ### Note
 Data in this repo come from many source:
