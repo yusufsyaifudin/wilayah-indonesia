@@ -3,4 +3,4 @@ jdk:
   - oraclejdk8
 
 # command to run tests
-script: sh -c 'cd wilayah-indonesia && mvn test'
+script: sh -c 'mkdir -p wilayah-indonesia/resources &&  cp -r data/list_of_area wilayah-indonesia/resources && cd wilayah-indonesia && mvn test'
