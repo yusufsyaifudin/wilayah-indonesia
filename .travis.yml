@@ -1,0 +1,6 @@
+language: java
+jdk:
+  - oraclejdk8
+
+# command to run tests
+script: sh -c 'cd wilayah-indonesia && mvn test'
