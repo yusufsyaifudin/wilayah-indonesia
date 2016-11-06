@@ -35,7 +35,7 @@ then add the dependency:
 <dependency>
   <groupId>com.github.yusufsyaifudin</groupId>
   <artifactId>wilayah-indonesia</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.3</version>
 </dependency>
 ```
 
@@ -53,7 +53,7 @@ and add the dependency
 
 ```
 dependencies {
-  compile 'com.github.yusufsyaifudin:wilayah-indonesia:0.0.1'
+  compile 'com.github.yusufsyaifudin:wilayah-indonesia:0.0.3'
 }
 ```
 
@@ -61,6 +61,9 @@ dependencies {
 If you have move the data to resources directory, you can now call this method to load the data (without database):
 
 ```
+import wilayah.indonesia.*;
+import wilayah.indonesia.model.*;
+
 Location.Provinces() // will return List<Province>
 Location.Regencies() // will return List<Regency>  
 Location.Districts() // will return List<District>
