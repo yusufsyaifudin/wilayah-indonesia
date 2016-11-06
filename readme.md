@@ -5,6 +5,8 @@ To import data to database, please read this -> [/wilayah-indonesia-api/readme.m
 
 ## Using JAVA API
 
+Travis status: [![Build Status](https://travis-ci.org/yusufsyaifudin/wilayah-indonesia.svg?branch=master)](https://travis-ci.org/yusufsyaifudin/wilayah-indonesia)
+
 Please move all inside `/data` directory to `/resources` in your root project:
 
 ```
