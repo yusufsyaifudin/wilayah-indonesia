@@ -1,8 +1,5 @@
 # Wilayah Indonesia
 
-## Import
-To import data to database, please read this -> [/wilayah-indonesia-api/readme.md](/wilayah-indonesia-api/readme.md)
-
 ## Using JAVA API
 
 Travis status: [![Build Status](https://travis-ci.org/yusufsyaifudin/wilayah-indonesia.svg?branch=master)](https://travis-ci.org/yusufsyaifudin/wilayah-indonesia)
@@ -37,7 +34,7 @@ then add the dependency:
 <dependency>
   <groupId>com.github.yusufsyaifudin</groupId>
   <artifactId>wilayah-indonesia</artifactId>
-  <version>0.0.3</version>
+  <version>0.0.4</version>
 </dependency>
 ```
 
@@ -55,7 +52,7 @@ and add the dependency
 
 ```
 dependencies {
-  compile 'com.github.yusufsyaifudin:wilayah-indonesia:0.0.3'
+  compile 'com.github.yusufsyaifudin:wilayah-indonesia:0.0.4'
 }
 ```
 
@@ -71,11 +68,6 @@ Location.Regencies() // will return List<Regency>
 Location.Districts() // will return List<District>
 Location.Villages() // will return List<Village>
 ```
-
-> How about geojson data and data relation such ad Province.GetAllRegency()?
-
-I haven't implement it yet, so if you have spare time please fork and create a pull request.
-
 
 
 ### Note
