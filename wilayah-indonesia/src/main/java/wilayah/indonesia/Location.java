@@ -50,6 +50,12 @@ public class Location {
         return gson.fromJson(villages, VILLAGE);
     }
 
+    public static List<Province> ProvinceTrees() throws Exception {
+        String treeStr = Loader.read("./resources/list_of_area/indonesia-region.min.json");
+        List<Province> tree = gson.fromJson(treeStr, PROVINCES);
+        return tree;
+    }
+
     public static List<Province> ProvinceTrees(TREE_LEVEL tree_level) throws Exception {
         String provincesStr = "[{}]";
         String regenciesStr = "[{}]";
