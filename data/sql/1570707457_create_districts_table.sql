@@ -303,7 +303,7 @@ INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALU
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1201061, 1201, 'BAWOLATO', 'Bawolato, Nias Regency, North Sumatra, Indonesia', 0.953930, 97.850400);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1201062, 1201, 'ULUGAWO', 'Ulugawo, Nias Regency, North Sumatra, Indonesia', 0.982670, 97.709090);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1201070, 1201, 'GIDO', 'Gido, Nias Regency, North Sumatra, Indonesia', 1.134610, 97.687370);
-INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1201071, 1201, 'SOGAEADU', 'Sogae\'adu, Kabupaten Nias, Sumatera Utara, Indonesia', 1.096420, 97.752540);
+INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1201071, 1201, 'SOGAEADU', 'Sogaeadu, Kabupaten Nias, Sumatera Utara, Indonesia', 1.096420, 97.752540);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1201081, 1201, 'MA U', 'Gn. Kakumahu, Biloro, Kepala Madan, Kabupaten Buru Selatan, Maluku, Indonesia', -3.234440, 126.075560);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1201082, 1201, 'SOMOLO - MOLO', 'Somolo - Molo, Nias Regency, North Sumatra, Indonesia', 1.020690, 97.665660);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1201130, 1201, 'HILIDUHO', 'Hiliduho, Nias Regency, North Sumatra, Indonesia', 1.249340, 97.535560);
@@ -557,7 +557,7 @@ INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALU
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214041, 1214, 'ARAMO', 'Aramo, Kabupaten Nias Selatan, Sumatera Utara, Indonesia', 0.736980, 97.752540);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214042, 1214, 'ULUSUSUA', 'Ulususua, Kabupaten Nias Selatan, Sumatera Utara, Indonesia', 0.817200, 97.703660);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214050, 1214, 'LAHUSA', 'Lahusa, South Nias Regency, North Sumatra, Indonesia', 0.765060, 97.850400);
-INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214051, 1214, 'SIDUAORI', 'Sidua\'ori, Kabupaten Nias Selatan, Sumatera Utara, Indonesia', 0.831090, 97.839520);
+INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214051, 1214, 'SIDUAORI', 'Siduaori, Kabupaten Nias Selatan, Sumatera Utara, Indonesia', 0.831090, 97.839520);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214052, 1214, 'SOMAMBAWA', 'Somambawa, Kabupaten Nias Selatan, Sumatera Utara, Indonesia', 0.835710, 97.888490);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214060, 1214, 'GOMO', 'Gomo, South Nias Regency, North Sumatra, Indonesia', 0.887840, 97.796010);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214061, 1214, 'SUSUA', 'Susua, Lasusua, Kabupaten Kolaka Utara, Sulawesi Tenggara, Indonesia', -3.503440, 120.886300);
@@ -569,11 +569,11 @@ INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALU
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214070, 1214, 'LOLOMATUA', 'Lolomatua, South Nias Regency, North Sumatra, Indonesia', 0.959140, 97.638540);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214071, 1214, 'ULUNOYO', 'Ulunoyo, Kabupaten Nias Selatan, Sumatera Utara, Indonesia', 0.878640, 97.676520);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214072, 1214, 'HURUNA', 'Huruna, Kabupaten Nias Selatan, Sumatera Utara, Indonesia', 0.978040, 97.660240);
-INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214080, 1214, 'LOLOWA\'U', 'Lolowau, South Nias Regency, North Sumatra, Indonesia', 0.888290, 97.578900);
+INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214080, 1214, 'LOLOWAU', 'Lolowau, South Nias Regency, North Sumatra, Indonesia', 0.888290, 97.578900);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214081, 1214, 'HILIMEGAI', 'Hilimegai, Kabupaten Nias Selatan, Sumatera Utara, Indonesia', 0.874010, 97.627690);
-INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214082, 1214, 'OOU', 'O\'o\'u, Kabupaten Nias Selatan, Sumatera Utara, Indonesia', 0.789000, 97.649390);
+INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214082, 1214, 'OOU', 'Oou, Kabupaten Nias Selatan, Sumatera Utara, Indonesia', 0.789000, 97.649390);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214083, 1214, 'ONOHAZUMBA', 'Onohazumba, Kabupaten Nias Selatan, Sumatera Utara, Indonesia', 0.982970, 97.578900);
-INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214084, 1214, 'HILISALAWAAHE', 'Hilisalawa\'ahe, Kabupaten Nias Selatan, Sumatera Utara, Indonesia', 0.940370, 97.562640);
+INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1214084, 1214, 'HILISALAWAAHE', 'Hilisalawaahe, Kabupaten Nias Selatan, Sumatera Utara, Indonesia', 0.940370, 97.562640);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1215010, 1215, 'PAKKAT', 'Pakkat, Pakkat Hauagong, Pakkat, Kabupaten Humbang Hasundutan, Sumatera Utara, Indonesia', 2.145130, 98.473520);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1215020, 1215, 'ONAN GANJANG', 'Onan Ganjang, Humbang Hasundutan Regency, North Sumatra, Indonesia', 2.140140, 98.638060);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (1215030, 1215, 'SIJAMA POLANG', 'Sijama Polang, Humbang Hasundutan Regency, North Sumatra, Indonesia', 2.178510, 98.726090);
@@ -4186,7 +4186,7 @@ INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALU
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (5204132, 5204, 'MARONGE', 'Maronge, Sumbawa Regency, West Nusa Tenggara, Indonesia', -8.728720, 117.666950);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (5204140, 5204, 'EMPANG', 'Empang, South Bogor, Bogor City, West Java, Indonesia', -6.616580, 106.801610);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (5204141, 5204, 'TARANO', 'Tarano, Sumbawa Regency, West Nusa Tenggara, Indonesia', -8.727450, 118.182480);
-INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (5205010, 5205, 'HU\'U', 'Huu, Hu\'u, Kabupaten Dompu, Nusa Tenggara Bar., Indonesia', -8.783400, 118.382300);
+INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (5205010, 5205, 'HUU', 'Huu, Huu, Kabupaten Dompu, Nusa Tenggara Bar., Indonesia', -8.783400, 118.382300);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (5205011, 5205, 'PAJO', 'Pajo, Dompu Regency, West Nusa Tenggara, Indonesia', -8.634710, 118.474720);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (5205020, 5205, 'DOMPU', 'Dompu, Dompu Regency, West Nusa Tenggara, Indonesia', -8.496630, 118.474720);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (5205030, 5205, 'WOJA', 'Woja, Dompu Regency, West Nusa Tenggara, Indonesia', -8.511120, 118.416310);
@@ -4311,7 +4311,7 @@ INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALU
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (5304081, 5304, 'FAUTMOLO', 'Fautmolo, South Timor Tengah Regency, East Nusa Tenggara, Indonesia', -9.788270, 124.563910);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (5304082, 5304, 'FATUKOPA', 'Fatukopa, South Timor Tengah Regency, East Nusa Tenggara, Indonesia', -9.647590, 124.630340);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (5304090, 5304, 'KIE', 'Kie, South Timor Tengah Regency, East Nusa Tenggara, Indonesia', -9.858780, 124.530680);
-INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (5304091, 5304, 'KOT\'OLIN', 'Kot\'olin, South Timor Tengah Regency, East Nusa Tenggara, Indonesia', -9.954580, 124.608200);
+INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (5304091, 5304, 'KOTOLIN', 'Kotolin, South Timor Tengah Regency, East Nusa Tenggara, Indonesia', -9.954580, 124.608200);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (5304100, 5304, 'AMANATUN SELATAN', 'South Amanatun, South Timor Tengah Regency, East Nusa Tenggara, Indonesia', -9.837680, 124.630340);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (5304101, 5304, 'BOKING', 'Boking, South Timor Tengah Regency, East Nusa Tenggara, Indonesia', -9.824800, 124.740930);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (5304102, 5304, 'NUNKOLO', 'Nunkolo, South Timor Tengah Regency, East Nusa Tenggara, Indonesia', -9.889630, 124.674590);
@@ -4699,7 +4699,7 @@ INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALU
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (6112010, 6112, 'BATU AMPAR', 'Batu Ampar, Kramatjati, East Jakarta City, Special Capital Region of Jakarta, Indonesia', -6.274820, 106.862090);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (6112020, 6112, 'TERENTANG', 'Terentang, Kubu Raya Regency, West Kalimantan, Indonesia', -0.388350, 109.711550);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (6112030, 6112, 'KUBU', 'Kubu, Kabupaten Karangasem, Bali, Indonesia', -8.259440, 115.566000);
-INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (6112040, 6112, 'TELOK PA\'KEDAI', 'Telok Pa\'kedai, Kubu Raya Regency, West Kalimantan, Indonesia', -0.318360, 109.235580);
+INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (6112040, 6112, 'TELOK PAKEDAI', 'Telok Pakedai, Kubu Raya Regency, West Kalimantan, Indonesia', -0.318360, 109.235580);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (6112050, 6112, 'SUNGAI KAKAP', 'Kakap River, Kubu Raya Regency, West Kalimantan, Indonesia', -0.123460, 109.259360);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (6112060, 6112, 'RASAU JAYA', 'Rasau Jaya, Kubu Raya Regency, West Kalimantan, Indonesia', -0.229550, 109.306940);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (6112070, 6112, 'SUNGAI RAYA', 'Raya River, Kubu Raya Regency, West Kalimantan, Indonesia', -0.246800, 109.616320);
@@ -5224,7 +5224,7 @@ INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALU
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7104041, 7104, 'BEO UTARA', 'North Beo, Kepulauan Talaud Regency, North Sulawesi, Indonesia', 4.309090, 126.760400);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7104042, 7104, 'BEO SELATAN', 'South Beo, Kepulauan Talaud Regency, North Sulawesi, Indonesia', 4.182510, 126.771180);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7104050, 7104, 'RAINIS', 'Rainis, Kepulauan Talaud Regency, North Sulawesi, Indonesia', 4.278460, 126.857320);
-INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7104051, 7104, 'TAMPA NA\'MMA', 'Tampa Na\'mma, Kepulauan Talaud Regency, North Sulawesi, Indonesia', 4.337880, 126.846560);
+INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7104051, 7104, 'TAMPA NAMMA', 'Tampa Namma, Kepulauan Talaud Regency, North Sulawesi, Indonesia', 4.337880, 126.846560);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7104052, 7104, 'PULUTAN', 'Pulutan, Indonesia', 4.147640, 126.797580);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7104060, 7104, 'ESSANG', 'Essang, Kepulauan Talaud Regency, North Sulawesi, Indonesia', 4.452950, 126.749630);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7104061, 7104, 'ESSANG SELATAN', 'South Essang, Kepulauan Talaud Regency, North Sulawesi, Indonesia', 4.403560, 126.728070);
@@ -5527,7 +5527,7 @@ INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALU
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7303020, 7303, 'BANTAENG', 'Bantaeng Regency, South Sulawesi, Indonesia', -5.516930, 120.020300);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7303021, 7303, 'EREMERASA', 'Eremerasa, Bantaeng Regency, South Sulawesi, Indonesia', -5.486180, 119.991400);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7303030, 7303, 'TOMPOBULU', 'Tompobulu, Gowa Regency, South Sulawesi, Indonesia', -5.405040, 119.869950);
-INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7303031, 7303, 'PA\'JUKUKANG', 'Pa\'jukukang, Bantaeng Regency, South Sulawesi, Indonesia', -5.561230, 120.054970);
+INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7303031, 7303, 'PAJUKUKANG', 'Pajukukang, Bantaeng Regency, South Sulawesi, Indonesia', -5.561230, 120.054970);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7303032, 7303, 'GANTARANGKEKE', 'Gantarangkeke, Bantaeng Regency, South Sulawesi, Indonesia', -5.524250, 120.054970);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7304010, 7304, 'BANGKALA', 'Bangkala, Jeneponto Regency, South Sulawesi, Indonesia', -5.568310, 119.591960);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7304011, 7304, 'BANGKALA BARAT', 'West Bangkala, Jeneponto Regency, South Sulawesi, Indonesia', -5.485430, 119.580360);
@@ -5600,7 +5600,7 @@ INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALU
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7309051, 7309, 'TONDONG TALLASA', 'Tondong Tallasa, Pangkajene Dan Kepulauan Regency, South Sulawesi, Indonesia', -4.852170, 119.719440);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7309060, 7309, 'BUNGORO', 'Bungoro, Pangkajene Dan Kepulauan Regency, South Sulawesi, Indonesia', -4.772680, 119.661510);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7309070, 7309, 'LABAKKANG', 'Labakkang, Pangkajene Dan Kepulauan Regency, South Sulawesi, Indonesia', -4.759860, 119.545570);
-INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7309080, 7309, 'MA\'RANG', 'Marang, Kec. Pesisir Sel., Kabupaten Lampung Barat, Lampung, Indonesia', -5.378750, 104.058000);
+INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7309080, 7309, 'MARANG', 'Marang, Kec. Pesisir Sel., Kabupaten Lampung Barat, Lampung, Indonesia', -5.378750, 104.058000);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7309091, 7309, 'SEGERI', 'Segeri, Pangkajene Dan Kepulauan Regency, South Sulawesi, Indonesia', -4.665330, 119.615140);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7309092, 7309, 'MANDALLE', 'Mandalle, Tamarupa, Mandalle, Kabupaten Pangkajene Dan Kepulauan, Sulawesi Selatan, Indonesia', -4.588070, 119.595300);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7310010, 7310, 'TANETE RIAJA', 'Tanete Riaja, Barru Regency, South Sulawesi, Indonesia', -4.526170, 119.673090);
@@ -5770,7 +5770,7 @@ INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALU
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7326100, 7326, 'TIKALA', 'Tikala, Manado City, North Sulawesi, Indonesia', 1.466740, 124.890000);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7326110, 7326, 'SESEAN', 'Sesean, North Toraja Regency, South Sulawesi, Indonesia', -2.925250, 119.922010);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7326120, 7326, 'BALUSU', 'Balusu, Barru Regency, South Sulawesi, Indonesia', -4.344800, 119.673090);
-INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7326130, 7326, 'SA\'DAN', 'Sa\'dan, North Toraja Regency, South Sulawesi, Indonesia', -2.842740, 119.904660);
+INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7326130, 7326, 'SADAN', 'Sadan, North Toraja Regency, South Sulawesi, Indonesia', -2.842740, 119.904660);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7326140, 7326, 'BENGKELEKILA', 'Bengkelekila, North Toraja Regency, South Sulawesi, Indonesia', -2.886750, 119.893090);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7326150, 7326, 'SESEAN SULOARA', 'Sesean Suloara, North Toraja Regency, South Sulawesi, Indonesia', -2.909110, 119.875730);
 INSERT INTO districts (id, regency_id, name, alt_name, latitude, longitude) VALUES (7326160, 7326, 'KAPALA PITU', 'Kapala Pitu, North Toraja Regency, South Sulawesi, Indonesia', -2.927620, 119.841020);
