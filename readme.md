@@ -1,5 +1,20 @@
 # Wilayah Indonesia
 
+## Migrating only data into PostgreSQL
+
+Use https://github.com/rubenv/sql-migrate install with:
+
+```
+go get -v github.com/rubenv/sql-migrate/...
+```
+
+Create database in postgres, for example database `id_area`, 
+and change your database configuration in file `rubenv-migrate.yml`, then run:
+
+```
+sql-migrate up -config rubenv-migrate.yml
+```
+
 ## Using JAVA API
 
 Travis status: [![Build Status](https://travis-ci.org/yusufsyaifudin/wilayah-indonesia.svg?branch=master)](https://travis-ci.org/yusufsyaifudin/wilayah-indonesia)
