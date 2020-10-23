@@ -1,5 +1,8 @@
 # Wilayah Indonesia
 
+Travis status: [![Build Status](https://travis-ci.org/yusufsyaifudin/wilayah-indonesia.svg?branch=master)](https://travis-ci.org/yusufsyaifudin/wilayah-indonesia)
+
+
 ## Migrating only data into PostgreSQL
 
 Use https://github.com/rubenv/sql-migrate install with:
@@ -33,8 +36,6 @@ Just 4 simple Rest API:
 * http://127.0.0.1:9000/provinces/:province_id/regencies/:regency_id/districts/:district_id/villages -> List of Villages in :province_id and :regency_id and :district_id
 
 ## Using JAVA API
-
-Travis status: [![Build Status](https://travis-ci.org/yusufsyaifudin/wilayah-indonesia.svg?branch=master)](https://travis-ci.org/yusufsyaifudin/wilayah-indonesia)
 
 Please move all inside `/data` directory to `/resources` in your root project:
 

@@ -1,6 +1,9 @@
 language: java
 jdk:
-  - oraclejdk8
+  - openjdk8
+  - openjdk10
+  - openjdk11
 
 # command to run tests
-script: sh -c 'mkdir -p wilayah-indonesia/resources &&  cp -r data/list_of_area wilayah-indonesia/resources && cd wilayah-indonesia && mvn test'
+script:
+  - sh -c 'mkdir -p wilayah-indonesia/resources &&  cp -r data/list_of_area wilayah-indonesia/resources && cd wilayah-indonesia && mvn test'
