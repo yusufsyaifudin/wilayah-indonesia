@@ -15,6 +15,23 @@ and change your database configuration in file `rubenv-migrate.yml`, then run:
 sql-migrate up -config rubenv-migrate.yml
 ```
 
+## Using REST API
+
+You can use Rest API with just one binary. 
+
+* First, migrate the data using `sql-migrate`.
+* Second, build using Golang by `go mod download` and `go build -o artifacts/wilayah_indonesia main.go`
+  Then set config `config.yaml` and run the program `./artifacts/wilayah_indonesia`
+  
+### Endpoints
+
+Just 4 simple Rest API:
+
+* http://127.0.0.1:9000/provinces -> List of Provinces
+* http://127.0.0.1:9000/provinces/:province_id/regencies -> List of Regencies in :province_id
+* http://127.0.0.1:9000/provinces/:province_id/regencies/:regency_id/districts -> List of District in :province_id and :regency_id
+* http://127.0.0.1:9000/provinces/:province_id/regencies/:regency_id/districts/:district_id/villages -> List of Villages in :province_id and :regency_id and :district_id
+
 ## Using JAVA API
 
 Travis status: [![Build Status](https://travis-ci.org/yusufsyaifudin/wilayah-indonesia.svg?branch=master)](https://travis-ci.org/yusufsyaifudin/wilayah-indonesia)
