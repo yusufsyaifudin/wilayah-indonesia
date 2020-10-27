@@ -25,6 +25,12 @@
       <artifactId>gson</artifactId>
       <version>2.7</version>
     </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.16</version>
+      <scope>provided</scope>
+    </dependency>
 
     <!-- Logger -->
     <dependency>
