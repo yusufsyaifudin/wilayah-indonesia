@@ -47,18 +47,21 @@ func main() {
 
 	v := viper.New()
 	v.AutomaticEnv()
-	v.SetConfigType("yaml")
-	v.SetConfigFile("config.yaml")
+	v.SetConfigType("dotenv")
+	v.SetConfigFile(".env")
 
 	err := v.ReadInConfig()
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	err = v.Unmarshal(config)
-	if err != nil {
-		log.Fatal(err)
-	}
+	config.Postgres.Host = v.GetString("PG_HOST")
+	config.Postgres.Port = v.GetInt("PG_PORT")
+	config.Postgres.Username = v.GetString("PG_USER")
+	config.Postgres.Password = v.GetString("PG_PASSWORD")
+	config.Postgres.DB = v.GetString("PG_DB")
+	config.Server.Version = v.GetString("SERVER_VERSION")
+	config.Server.Port = v.GetInt("SERVER_PORT")
 
 	bs, _ := yaml.Marshal(config)
 	_, _ = fmt.Fprintf(os.Stdout, "%v\n", string(bs))
