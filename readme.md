@@ -24,7 +24,7 @@ You can use Rest API with just one binary.
 
 * First, migrate the data using `sql-migrate`.
 * Second, build using Golang by `go mod download` and `go build -o artifacts/wilayah_indonesia main.go`
-  Then set config `config.yaml` and run the program `./artifacts/wilayah_indonesia`
+  Then set config on `.env` file and run the program `./artifacts/wilayah_indonesia`
   
 ### Endpoints
 
