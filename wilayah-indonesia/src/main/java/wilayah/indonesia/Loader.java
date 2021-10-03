@@ -1,32 +1,39 @@
 package wilayah.indonesia;
 
-import java.io.*;
-import org.apache.log4j.Logger;
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import lombok.var;
 
 /**
  * Created by yusuf on 24/10/16.
  */
+@Slf4j
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class Loader {
 
-    final static Logger logger = Logger.getLogger(Loader.class);
     /**
      * Load a file content to string using BufferedInputStream since it fast
-     * @param file
-     * @return
-     * @throws Exception
+     *
+     * @param file file path
+     * @return content string
+     * @throws IOException throws if failed to load the file
      */
-    public static String read(String file) throws Exception {
+    public static String read(String file) throws IOException {
         final long start = System.currentTimeMillis();
-        final InputStream in = new BufferedInputStream(new FileInputStream(file));
-        int bytesRead = 0;
-        String line = "";
-        final byte[] buf = new byte[50130];
-        while ((bytesRead = in.read(buf)) != -1) {
-            line += new String(buf, 0, bytesRead);
+        try (final InputStream in = new BufferedInputStream(new FileInputStream(file))) {
+            var bytesRead = 0;
+            var line = new StringBuilder();
+            final byte[] buf = new byte[50130];
+            while ((bytesRead = in.read(buf)) != -1) {
+                line.append(new String(buf, 0, bytesRead));
+            }
+            log.debug("Load {} took {} ms", file, (System.currentTimeMillis() - start));
+            return line.toString();
         }
-        in.close();
-
-        logger.debug("Load " + file + " took " + (System.currentTimeMillis() - start) + " ms");
-        return line;
     }
 }
